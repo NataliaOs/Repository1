@@ -1,0 +1,56 @@
+
+.enter-city {
+display: block;
+text-align: center;    
+border-color: #8064e9;
+padding: 10px 64px;
+margin: 40px auto 20px;
+border-radius: 10px;
+
+}
+
+h3 {
+    color: #8064E9;
+      display: block;
+    text-align: center;
+}
+.search-button {
+    display:block;
+    margin: 10px auto 60px;
+    border: 1px solid;
+    background: #8064e9;
+    color: #d2f5f0;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px 24px;
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+    
+}
+
+.row {
+     display: block;
+    text-align: center;
+   
+}
+.now {
+    display: block;
+    border: 2px rgb(162, 143, 180) solid;
+    background-color: rgb(162, 143, 180);
+    width: auto;
+    text-align: center;
+    
+  
+}
+.city {
+    font-size: 42px;
+}
+.degree {
+    font-size: 48px;
+}
+.scale {
+    font-size: 20px;
+}
+hr {
+    padding: 5px;
+}
