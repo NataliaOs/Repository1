@@ -30,7 +30,7 @@ let months = [
 ];
 let month = months[now.getMonth()];
 
-h3.innerHTML = `${day} ${month} ${date}, ${hours}:${minutes}, ${year}`;
+h3.innerHTML = `${day}, ${month} ${date}, ${hours}:${minutes}, ${year}`;
 
 function displayWeatherCondition(response) {
   console.log(response.data);
@@ -65,8 +65,11 @@ function convertToCelcius(event) {
   let temperature = temperatureElement.innerHTML;
   temperature = Number(temperature);
   temperatureElement.innerHTML = Math.round((temperature * 9) / 5 + 32);
+  
 }
 
+let iconElement = document.querySelector("#icon");
+iconElement.innerHTML = "openweathermap.org/img/wn/04d@2x.png"
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", convertToFahrenheit);
 
